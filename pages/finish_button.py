@@ -1,0 +1,25 @@
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
+import time
+
+from base.base_class import Base
+
+
+class FinishPage(Base):
+
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.driver = driver
+
+    # Locators
+
+    # Getters
+
+    # Actions
+
+    # Methods
+    def finish(self):
+        self.get_current_url()
+        self.get_screenshot()
+

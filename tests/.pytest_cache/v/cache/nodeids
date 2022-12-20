@@ -1,0 +1,8 @@
+[
+  "test_by_product.py::test_by_product",
+  "test_by_product.py::test_by_product_1",
+  "test_by_product.py::test_by_product_2",
+  "test_by_product.py::test_by_product_3",
+  "test_by_product.py::test_select_product",
+  "test_link_about.py::test_link_about"
+]
